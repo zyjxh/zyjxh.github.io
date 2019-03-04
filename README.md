@@ -1,45 +1,80 @@
-# jekyll-uno
+# Jekyll Instagram Portfolio Theme
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
+Clean, minimalistic and responsive portfolio theme for Jekyll powered by Bootstrap 4.
+For the portfolio section is used Instagram widget, but you can easily update it with another content source.
 
-> :warning:
-  This theme requires ruby and rubygems installed
+## Live Demo
 
-### Features
+https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/
+![Jekyll Instagram Portfolio Theme](./screenshot.png "Jekyll Instagram Portfolio Theme")
 
-* Clean layout
-* Resposive layout
-* Pagination
-* Syntax highlighting
-* Social links
-* Tags listing page
-* Categories listing page
-* Google Analytics integration
-* Disqus integration
+## Showcase
 
----
+The best usage examples:
 
-### Install and Test
+- [Pavel Guzenko](http://guzenko.org.ua)
+- [Victor Mikitenko](https://mikitenko-org-ua.github.io/site/)
+- [Anthony Fuentes](http://anthonyfuentes.us/)
+- [Serhii Grytsyshyn](https://grserhii.github.io/)
 
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `bundle exec jekyll serve --watch`
+To add your example: fork the repo, add new line to the list above and create a pull request.
 
-Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
+## Featured on
 
----
+- [Template.net](https://www.template.net/cms-templates/jekyll/jekyll-themes-templates/)
+- [JekyllThemes.org](http://jekyllthemes.org/themes/instagram-portfolio-theme/)
 
-### Demo and Download
+## Powered by
 
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
+- [Jekyll](https://jekyllrb.com/)
+- [Bootstrap 4](http://v4-alpha.getbootstrap.com/)
+- [jQuery](https://jquery.com/)
+- [SnapWidget](https://snapwidget.com)
+- [Google Fonts: Lobster](https://fonts.google.com/specimen/Lobster)
+- [Font Awesome](http://fontawesome.io/)
 
-![jekyll-uno - free Jekyll theme](/screenshot.png)
+## Installation
+Install Jekyll:
 
----
+```
+gem install jekyll bundler
+```
 
-### Copyright and license
+Install bundle dependiencies:
 
-It is under [the MIT license](/LICENSE).
+```
+bundle install
+```
+
+When finished, run the dev server:
+
+```
+bundle exec jekyll serve
+```
+
+or just:
+
+```
+jekyll serve
+
+```
+To stop the server, use `CTRL+C`.
+
+## Building front-end assets: styles and scripts
+
+Install module dependencies:
+
+```
+npm install
+```
+
+Run the build script to generate updated front-end assets:
+
+```
+npm run build
+```
+
+Watch for changes and automatically rebuild assets (`CTRL+C` to stop):
+```
+npm run watch
+```
