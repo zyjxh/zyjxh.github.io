@@ -4,7 +4,7 @@ title:      JavaScript知识点总结 				# 标题
 subtitle:   一些零散的js知识点，持续更新中。。。 #副标题
 date:       2021-03-02				# 时间
 author:     JXH 						# 作者
-header-img: img/post-bg-banzhuan.jpg 	#这篇文章标题背景图片
+header-img: img/post-bg-coffee.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - JavaScript
@@ -13,8 +13,11 @@ tags:								#标签
 
 
 ## 思维导图
-![JavaScrip思维导图](../img/javascript20210203.jpg)
-知识点如下：
+![JavaScrip思维导图](http://qpdpqhuhh.hb-bkt.clouddn.com/javascript.jpg)
+知识点如下： 
+
+
+![JavaScrip思维导图1](/img/javascript20210203.jpg)
 
 ## 1.js的数据类型，值的存储
 JavaScript一共有8种数据类型，其中有7种基本数据类型：Undefined、Null、Boolean、Number、String、Symbol（es6新增，表示独一无二的值）和BigInt（es10新增）；
