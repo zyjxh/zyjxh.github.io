@@ -1,7 +1,7 @@
 # Site settings
 title: JXH Blog                          #博客的标题
 SEOTitle: 江小黑的博客 | JXH Blog         #显示在浏览器上搜索的时候的标题
-header-img: img/post-bg-desk.jpg        
+header-img: img/post-bg-js-version.jpg        
 email: 765802997@qq.com
 description: "做一只快快乐乐的小黑仔."    #网站介绍
 keyword: "JXH, JXH Blog, 江小黑的博客, jxh, 江小黑, 前端"   #关键词
@@ -31,7 +31,7 @@ jianshu_username:   黑
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
-paginate: 10
+paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
